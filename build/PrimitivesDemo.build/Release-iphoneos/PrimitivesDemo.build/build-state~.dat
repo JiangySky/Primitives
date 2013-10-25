@@ -1,0 +1,826 @@
+TPrimitivesDemo
+v7
+r0
+t327397972.574381
+cCheck dependencies
+cCpResource build/Release-iphoneos/PrimitivesDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/Info.plist PrimitivesDemo-Info.plist
+cCompileXIB /Users/Jiangy/Documents/PrimitivesDemo/MainWindow.xib
+cCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/check.png check.png
+cCompileXIB /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.xib
+cCpResource build/Release-iphoneos/PrimitivesDemo.app/readme.txt DrawPrimitives/readme.txt
+cCpResource build/Release-iphoneos/PrimitivesDemo.app/Readme.pdf Readme.pdf
+cCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/board.png board.png
+cCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/sprite.png sprite.png
+cCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/icon.png icon.png
+cCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/wait.png wait.png
+cProcessPCH /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch.gch PrimitivesDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch.gch PrimitivesDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/main.o /Users/Jiangy/Documents/PrimitivesDemo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemoAppDelegate.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/RootController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/DrawPrimitives.o /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/EAGLView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/main.o /Users/Jiangy/Documents/PrimitivesDemo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemoAppDelegate.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/RootController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo normal armv6
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/DrawPrimitives.o /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/EAGLView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo normal armv7
+cCreateUniversalBinary /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo normal "armv6 armv7"
+cGenerateDSYMFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app.dSYM /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo
+cProcessProductPackaging "/Users/Jiangy/Library/MobileDevice/Provisioning Profiles/0ECA5833-274B-43D4-B843-BA5C7010B578.mobileprovision" /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/embedded.mobileprovision
+cTouch /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent
+cCodeSign /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+cValidate /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.h
+c000000004DD3722C000000000000062C
+t1305702956
+s1580
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"DrawPrimitives.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m
+c000000004DD379720000000000007C07
+t1305704818
+s31751
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGLDrawable.h>
+i"EAGLView.h"
+i"PrimitiveController.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.h
+c000000004DD27B87000000000000079E
+t1305639815
+s1950
+i<UIKit/UIKit.h>
+i"PrimitiveView.h"
+i"EAGLView.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m
+c000000004DD26651000000000000136E
+t1305634385
+s4974
+i"PrimitiveController.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.xib
+c000000004DD33B1B0000000000007DC9
+t1305688859
+s32201
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.h
+c000000004DD27CBA0000000000000235
+t1305640122
+s565
+i<UIKit/UIKit.h>
+i"DrawPrimitives.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m
+c000000004DD335500000000000007997
+t1305687376
+s31127
+i"PrimitiveView.h"
+i"PrimitiveController.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.h
+c000000004DD22C6200000000000001F2
+t1305619554
+s498
+i<UIKit/UIKit.h>
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m
+c000000004DD26B190000000000000BE9
+t1305635609
+s3049
+i"PrimitivesDemoAppDelegate.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.h
+c000000004DD22A590000000000000275
+t1305619033
+s629
+i<UIKit/UIKit.h>
+i"PrimitiveController.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m
+c000000004DD24F670000000000001664
+t1305628519
+s5732
+i"RootController.h"
+i"PrimitivesDemoAppDelegate.h"
+i"PrimitiveView.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.h
+c000000004DD36F3200000000000075C6
+t1305702194
+s30150
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"MacrosAndType.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m
+c000000004DD37950000000000001814A
+t1305704784
+s98634
+i"DrawPrimitives.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/MacrosAndType.h
+c000000004DD337300000000000001A89
+t1305687856
+s6793
+i<Foundation/Foundation.h>
+
+N/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/readme.txt
+c000000004DCF5F400000000000000707
+t1305435968
+s1799
+
+N/Users/Jiangy/Documents/PrimitivesDemo/MainWindow.xib
+c000000004DD26A410000000000006432
+t1305635393
+s25650
+
+N/Users/Jiangy/Documents/PrimitivesDemo/PrimitivesDemo_Prefix.pch
+c000000004DCE253E00000000000000C5
+t1305355582
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Readme.pdf
+c000000004DD101CC0000000000008F7C
+t1305543116
+s36732
+
+N/Users/Jiangy/Documents/PrimitivesDemo/board.png
+c000000004DC251C900000000000263E7
+t1304580553
+s156647
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/DrawPrimitives.o
+t1305705169
+s248376
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/EAGLView.o
+t1305705169
+s92756
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveController.o
+t1305705168
+s74420
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveView.o
+t1305705168
+s84128
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo
+t1305705169
+s194528
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo.LinkFileList
+c000000004DD37ACC00000000000003E1
+t1305705164
+s993
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemoAppDelegate.o
+t1305705166
+s55848
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/RootController.o
+t1305705167
+s67140
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/main.o
+t1305705166
+s6512
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/DrawPrimitives.o
+t1305705171
+s233876
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/EAGLView.o
+t1305705171
+s91336
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveController.o
+t1305705170
+s72984
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveView.o
+t1305705170
+s81308
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo
+t1305705171
+s188884
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo.LinkFileList
+c000000004DD37ACC00000000000003E1
+t1305705164
+s993
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemoAppDelegate.o
+t1305705169
+s55880
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/RootController.o
+t1305705169
+s67056
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/main.o
+t1305705169
+s6488
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent
+t1305705171
+s434
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+t1305705172
+s612
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app.dSYM
+t1305705171
+s102
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/Info.plist
+t1305705164
+s809
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/MainWindow.nib
+t1305705165
+s1515
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PkgInfo
+t1305705164
+s8
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitiveController.nib
+t1305705165
+s2587
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo
+t1305705171
+s389588
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/Readme.pdf
+t1305705165
+s36732
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/ResourceRules.plist
+t1305705164
+s485
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/board.png
+t1305705165
+s164983
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/check.png
+t1305705165
+s574
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/embedded.mobileprovision
+t1305705171
+s7426
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/icon.png
+t1305705165
+s2129
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/readme.txt
+t1305705165
+s1799
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/sprite.png
+t1305705165
+s61850
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/wait.png
+t1305705165
+s27000
+
+N/Users/Jiangy/Documents/PrimitivesDemo/check.png
+c00000000487D52E80000000000000226
+t1216172776
+s550
+
+N/Users/Jiangy/Documents/PrimitivesDemo/icon.png
+c000000004D7E0EAE000000000000046E
+t1300106926
+s1134
+
+N/Users/Jiangy/Documents/PrimitivesDemo/main.m
+c000000004DCE253E000000000000016A
+t1305355582
+s362
+i<UIKit/UIKit.h>
+
+N/Users/Jiangy/Documents/PrimitivesDemo/sprite.png
+c0000000048B6553C000000000000F77C
+t1219908924
+s63356
+
+N/Users/Jiangy/Documents/PrimitivesDemo/wait.png
+c000000004DD27B5200000000000055CB
+t1305639762
+s21963
+
+N/Users/Jiangy/Library/MobileDevice/Provisioning Profiles/0ECA5833-274B-43D4-B843-BA5C7010B578.mobileprovision
+c000000004DB8D7DA0000000000001D02
+t1303959514
+s7426
+
+N/var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch.gch
+t1305705166
+s9783000
+
+N/var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch.gch
+t1305705166
+s10249944
+
+NPrimitivesDemo-Info.plist
+c000000004DCE253E000000000000038D
+t1305355582
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327397964#327397964#0(0"0(0#1#0"8603800256#0"0#
+
+CCodeSign /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+s327397971.924115
+e327397972.183796
+r1
+xCodeSign
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+lSLF07#2@50"CodeSign build/Release-iphoneos/PrimitivesDemo.app327397971#327397972#0(0"0(0#0#80"/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app8660443904#686"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Dong Gang (2Y36FN7T95)" --resource-rules=/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/ResourceRules.plist --entitlements /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/DrawPrimitives.o /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397967.184547
+e327397969.645736
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/DrawPrimitives.o
+x/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m327397967#327397969#0(0"0(0#0#70"/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m8625975872#1941"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/DrawPrimitives.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/EAGLView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397968.338699
+e327397969.194617
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/EAGLView.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m327397968#327397969#0(0"0(0#0#57"/Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m8666311200#1922"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/EAGLView.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397968.060565
+e327397968.338463
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveController.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m327397968#327397968#0(0"0(0#0#68"/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m8657100000#1944"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveController.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397966.979240
+e327397968.060457
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveView.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m327397966#327397968#0(0"0(0#0#62"/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m8668675392#1932"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitiveView.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemoAppDelegate.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397966.858233
+e327397966.979126
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemoAppDelegate.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m327397966#327397966#0(0"0(0#0#74"/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m8633907168#1956"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemoAppDelegate.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/RootController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397966.921895
+e327397967.184443
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/RootController.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m327397966#327397967#0(0"0(0#0#63"/Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m8620963520#1934"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/RootController.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/main.o /Users/Jiangy/Documents/PrimitivesDemo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397966.856817
+e327397966.921789
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/main.o
+x/Users/Jiangy/Documents/PrimitivesDemo/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Jiangy/Documents/PrimitivesDemo/main.m327397966#327397966#0(0"0(0#0#45"/Users/Jiangy/Documents/PrimitivesDemo/main.m8638803584#1906"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/main.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/DrawPrimitives.o /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397969.725378
+e327397971.723779
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/DrawPrimitives.o
+x/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m327397969#327397971#0(0"0(0#0#70"/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m8634512416#1941"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/DrawPrimitives.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/DrawPrimitives.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/EAGLView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397970.770432
+e327397971.553043
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/EAGLView.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m327397970#327397971#0(0"0(0#0#57"/Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m8642548032#1922"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/EAGLView.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/EAGLView.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397970.486456
+e327397970.770330
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveController.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m327397970#327397970#0(0"0(0#0#68"/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m8655836832#1944"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveController.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveView.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397969.615053
+e327397970.486291
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveView.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m327397969#327397970#0(0"0(0#0#62"/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m8647959680#1932"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveView.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitiveView.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemoAppDelegate.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397969.257114
+e327397969.392352
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemoAppDelegate.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m327397969#327397969#0(0"0(0#0#74"/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m8653317408#1956"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitivesDemoAppDelegate.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemoAppDelegate.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/RootController.o /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397969.392463
+e327397969.614947
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/RootController.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m327397969#327397969#0(0"0(0#0#63"/Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m8657525312#1934"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/Classes/RootController.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/RootController.o0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/main.o /Users/Jiangy/Documents/PrimitivesDemo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397969.194721
+e327397969.257003
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/main.o
+x/Users/Jiangy/Documents/PrimitivesDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Jiangy/Documents/PrimitivesDemo/main.m327397969#327397969#0(0"0(0#0#45"/Users/Jiangy/Documents/PrimitivesDemo/main.m8655964352#1906"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch -c /Users/Jiangy/Documents/PrimitivesDemo/main.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.xib
+s327397965.060581
+e327397965.547188
+r1
+xCompileXIB
+x/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.xib
+lSLF07#2@42"CompileXIB Classes/PrimitiveController.xib327397965#327397965#0(0"0(0#0#70"/Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.xib8666676928#577"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitiveController.nib /Users/Jiangy/Documents/PrimitivesDemo/Classes/PrimitiveController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Jiangy/Documents/PrimitivesDemo/MainWindow.xib
+s327397964.978740
+e327397965.438223
+r1
+xCompileXIB
+x/Users/Jiangy/Documents/PrimitivesDemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327397964#327397965#0(0"0(0#0#53"/Users/Jiangy/Documents/PrimitivesDemo/MainWindow.xib8632558656#551"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/MainWindow.nib /Users/Jiangy/Documents/PrimitivesDemo/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/board.png board.png
+s327397965.444619
+e327397965.545167
+r1
+xCopyPNGFile
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/board.png
+xboard.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/PrimitivesDemo.app/board.png board.png327397965#327397965#0(0"0(0#0#48"/Users/Jiangy/Documents/PrimitivesDemo/board.png8643548992#567"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jiangy/Documents/PrimitivesDemo/board.png /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/board.png0#
+
+CCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/check.png check.png
+s327397964.979569
+e327397965.060486
+r1
+xCopyPNGFile
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/check.png
+xcheck.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/PrimitivesDemo.app/check.png check.png327397964#327397965#0(0"0(0#0#48"/Users/Jiangy/Documents/PrimitivesDemo/check.png8628834720#567"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jiangy/Documents/PrimitivesDemo/check.png /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/check.png0#
+
+CCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/icon.png icon.png
+s327397965.547270
+e327397965.581745
+r1
+xCopyPNGFile
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/icon.png
+xicon.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/PrimitivesDemo.app/icon.png icon.png327397965#327397965#0(0"0(0#0#47"/Users/Jiangy/Documents/PrimitivesDemo/icon.png8634819456#565"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jiangy/Documents/PrimitivesDemo/icon.png /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/icon.png0#
+
+CCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/sprite.png sprite.png
+s327397965.545264
+e327397965.923366
+r1
+xCopyPNGFile
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/sprite.png
+xsprite.png
+lSLF07#2@75"CopyPNGFile build/Release-iphoneos/PrimitivesDemo.app/sprite.png sprite.png327397965#327397965#0(0"0(0#0#49"/Users/Jiangy/Documents/PrimitivesDemo/sprite.png8636889024#569"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jiangy/Documents/PrimitivesDemo/sprite.png /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/sprite.png0#
+
+CCopyPNGFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/wait.png wait.png
+s327397965.581840
+e327397965.665230
+r1
+xCopyPNGFile
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/wait.png
+xwait.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/PrimitivesDemo.app/wait.png wait.png327397965#327397965#0(0"0(0#0#47"/Users/Jiangy/Documents/PrimitivesDemo/wait.png8654004160#565"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jiangy/Documents/PrimitivesDemo/wait.png /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/wait.png0#
+
+CCpResource build/Release-iphoneos/PrimitivesDemo.app/Readme.pdf Readme.pdf
+s327397965.439394
+e327397965.450336
+r1
+xCpResource
+xbuild/Release-iphoneos/PrimitivesDemo.app/Readme.pdf
+xReadme.pdf
+lSLF07#2@15"Copy Readme.pdf327397965#327397965#0(0"0(0#0#49"/Users/Jiangy/Documents/PrimitivesDemo/Readme.pdf8645431232#484"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Jiangy/Documents/PrimitivesDemo/Readme.pdf /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app0#
+
+CCpResource build/Release-iphoneos/PrimitivesDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s327397964.945519
+e327397964.978437
+r1
+xCpResource
+xbuild/Release-iphoneos/PrimitivesDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist327397964#327397964#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8638001632#524"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app0#
+
+CCpResource build/Release-iphoneos/PrimitivesDemo.app/readme.txt DrawPrimitives/readme.txt
+s327397965.438317
+e327397965.446008
+r1
+xCpResource
+xbuild/Release-iphoneos/PrimitivesDemo.app/readme.txt
+xDrawPrimitives/readme.txt
+lSLF07#2@30"Copy DrawPrimitives/readme.txt327397965#327397965#0(0"0(0#0#64"/Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/readme.txt8647955488#499"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Jiangy/Documents/PrimitivesDemo/DrawPrimitives/readme.txt /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app0#
+
+CCreateUniversalBinary /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo normal "armv6 armv7"
+s327397971.772544
+e327397971.776290
+r1
+xCreateUniversalBinary
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo
+xnormal
+xarmv6 armv7
+lSLF07#2@99"CreateUniversalBinary build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo normal "armv6 armv7"327397971#327397971#0(0"0(0#0#50"/Users/Jiangy/Documents/PrimitivesDemo/armv6 armv78628655968#580"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo -output /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo0#
+
+CGenerateDSYMFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app.dSYM /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo
+s327397971.776382
+e327397971.840781
+r1
+xGenerateDSYMFile
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app.dSYM
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo
+lSLF07#2@120"GenerateDSYMFile build/Release-iphoneos/PrimitivesDemo.app.dSYM build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo327397971#327397971#0(0"0(0#0#95"/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo8604853856#387"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PrimitivesDemo -o /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app.dSYM0#
+
+CLd /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo normal armv6
+s327397969.645872
+e327397969.725268
+r1
+xLd
+x/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo
+xnormal
+xarmv6
+lSLF07#2@144"Link /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo327397969#327397969#0(0"0(0#0#0"8643173920#951"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -filelist /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv6/PrimitivesDemo0#
+
+CLd /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo normal armv7
+s327397971.723880
+e327397971.772433
+r1
+xLd
+x/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo
+xnormal
+xarmv7
+lSLF07#2@144"Link /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo327397971#327397971#0(0"0(0#0#0"8634410400#951"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -filelist /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/Objects-normal/armv7/PrimitivesDemo0#
+
+CProcessInfoPlistFile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/Info.plist PrimitivesDemo-Info.plist
+s327397964.946506
+e327397964.978674
+r1
+xProcessInfoPlistFile
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/Info.plist
+xPrimitivesDemo-Info.plist
+lSLF07#2@33"Process PrimitivesDemo-Info.plist327397964#327397964#0(0"0(0#0#64"/Users/Jiangy/Documents/PrimitivesDemo/PrimitivesDemo-Info.plist8635850464#596"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PrimitivesDemo-Info.plist -genpkginfo /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/ResourceRules.plist -o /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch.gch PrimitivesDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327397965.923491
+e327397966.750632
+r1
+xProcessPCH
+x/var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch.gch
+xPrimitivesDemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile PrimitivesDemo_Prefix.pch327397965#327397966#0(0"0(0#0#64"/Users/Jiangy/Documents/PrimitivesDemo/PrimitivesDemo_Prefix.pch8666760800#1795"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv6 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Jiangy/Documents/PrimitivesDemo/PrimitivesDemo_Prefix.pch -o /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-cbycgsnywvaqqcggruckgmoddnoj/PrimitivesDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch.gch PrimitivesDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327397965.924421
+e327397966.856679
+r1
+xProcessPCH
+x/var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch.gch
+xPrimitivesDemo_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile PrimitivesDemo_Prefix.pch327397965#327397966#0(0"0(0#0#64"/Users/Jiangy/Documents/PrimitivesDemo/PrimitivesDemo_Prefix.pch8656036800#1795"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources/armv7 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Jiangy/Documents/PrimitivesDemo/PrimitivesDemo_Prefix.pch -o /var/folders/1L/1LEPLbHUF-83bbJCsWPmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrimitivesDemo_Prefix-dfjltwuxchapkubzqmqloyvivdzs/PrimitivesDemo_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Jiangy/Library/MobileDevice/Provisioning Profiles/0ECA5833-274B-43D4-B843-BA5C7010B578.mobileprovision" /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/embedded.mobileprovision
+s327397971.840887
+e327397971.902343
+r1
+xProcessProductPackaging
+x/Users/Jiangy/Library/MobileDevice/Provisioning Profiles/0ECA5833-274B-43D4-B843-BA5C7010B578.mobileprovision
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/Jiangy/Library/MobileDevice/Provisioning Profiles/0ECA5833-274B-43D4-B843-BA5C7010B578.mobileprovision" build/Release-iphoneos/PrimitivesDemo.app/embedded.mobileprovision327397971#327397971#0(0"0(0#0#105"/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/embedded.mobileprovision8609750624#433"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Jiangy/Library/MobileDevice/Provisioning Profiles/0ECA5833-274B-43D4-B843-BA5C7010B578.mobileprovision" -o /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent
+s327397971.905829
+e327397971.924017
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent
+lSLF07#2@198"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent327397971#327397971#0(0"0(0#0#124"/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent8666288160#455"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphoneos/PrimitivesDemo.build/PrimitivesDemo.xcent0#
+
+CTouch /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+s327397971.902424
+e327397971.905744
+r1
+xTouch
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+lSLF07#2@86"Touch /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app327397971#327397971#0(0"0(0#0#0"8669370720#273"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app0#
+
+CValidate /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+s327397972.184007
+e327397972.574326
+r1
+xValidate
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app
+o2011-05-18 15:52:52.300 Validation[6201:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@50"Validate build/Release-iphoneos/PrimitivesDemo.app327397972#327397972#0(99"2011-05-18 15:52:52.300 Validation[6201:607] *** Warning: Defaulting to the standard codesign tool0(0#0#80"/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app8649354528#382"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphoneos/PrimitivesDemo.app0#
+

@@ -1,0 +1,129 @@
+TPrimitives
+v7
+r0
+t329993600.390852
+cCheck dependencies
+cCpHeader build/Release-iphonesimulator/usr/local/include/Primitives.h Primitives.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/MacrosAndType.h MacrosAndType.h
+cCompileC build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Objects-normal/i386/Primitives.o /Users/Jiangy/Documents/PrimitivesDemo/Primitives.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/libPrimitives.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Users/Jiangy/Documents/PrimitivesDemo/MacrosAndType.h
+c000000004DD337300000000000001A89
+t1305687856
+s6793
+i<Foundation/Foundation.h>
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Primitives.h
+c000000004DF9BAE300000000000075CC
+t1308211939
+s30156
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"MacrosAndType.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/Primitives.m
+c000000004DF9BB43000000000001810C
+t1308212035
+s98572
+i"Primitives.h"
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Objects-normal/i386/Primitives.LinkFileList
+c000000004DFB15FE000000000000008C
+t1308300798
+s140
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Objects-normal/i386/Primitives.o
+t1308300800
+s265180
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/libPrimitives.a
+t1308300800
+s266016
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/usr/local/include/MacrosAndType.h
+t1308300798
+s6793
+
+N/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/usr/local/include/Primitives.h
+t1308300798
+s30156
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329993597#329993598#0(0"0(0#1#0"8744028352#0"0#
+
+CCompileC build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Objects-normal/i386/Primitives.o /Users/Jiangy/Documents/PrimitivesDemo/Primitives.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329993598.118785
+e329993600.344583
+r1
+xCompileC
+xbuild/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Objects-normal/i386/Primitives.o
+x/Users/Jiangy/Documents/PrimitivesDemo/Primitives.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Jiangy/Documents/PrimitivesDemo/Primitives.m329993598#329993600#0(0"0(0#0#51"/Users/Jiangy/Documents/PrimitivesDemo/Primitives.m8733745184#1860"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Primitives-generated-files.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Primitives-own-target-headers.hmap -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Primitives-all-target-headers.hmap -iquote /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Primitives-project-headers.hmap -F/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator -I/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/include -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/DerivedSources/i386 -I/Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Jiangy/Documents/PrimitivesDemo/Primitives.m -o /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Objects-normal/i386/Primitives.o0#
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/MacrosAndType.h MacrosAndType.h
+s329993598.075217
+e329993598.118693
+r1
+xCpHeader
+xbuild/Release-iphonesimulator/usr/local/include/MacrosAndType.h
+xMacrosAndType.h
+lSLF07#2@20"Copy MacrosAndType.h329993598#329993598#0(0"0(0#0#54"/Users/Jiangy/Documents/PrimitivesDemo/MacrosAndType.h8739826336#502"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Jiangy/Documents/PrimitivesDemo/MacrosAndType.h /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/usr/local/include0#
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Primitives.h Primitives.h
+s329993598.073495
+e329993598.116674
+r1
+xCpHeader
+xbuild/Release-iphonesimulator/usr/local/include/Primitives.h
+xPrimitives.h
+lSLF07#2@17"Copy Primitives.h329993598#329993598#0(0"0(0#0#51"/Users/Jiangy/Documents/PrimitivesDemo/Primitives.h8740751488#499"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Jiangy/Documents/PrimitivesDemo/Primitives.h /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/usr/local/include0#
+
+CLibtool /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/libPrimitives.a normal i386
+s329993600.344870
+e329993600.390798
+r1
+xLibtool
+x/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/libPrimitives.a
+xnormal
+xi386
+lSLF07#2@65"Libtool build/Release-iphonesimulator/libPrimitives.a normal i386329993600#329993600#0(0"0(0#0#0"8747572608#734"    cd /Users/Jiangy/Documents/PrimitivesDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator -filelist /Users/Jiangy/Documents/PrimitivesDemo/build/PrimitivesDemo.build/Release-iphonesimulator/Primitives.build/Objects-normal/i386/Primitives.LinkFileList -o /Users/Jiangy/Documents/PrimitivesDemo/build/Release-iphonesimulator/libPrimitives.a0#
+
